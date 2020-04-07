@@ -21,7 +21,7 @@ public void logintest() throws IOException
 		logger.info("Entered Password");
 		lp.clickSubmit();
 		
-		if(driver.getTitle().equals("Guru99 Bank Manager HomePage"))
+		if(driver.getTitle().equals("Guru99 Bank Manager HomePag"))
 		{
 			Assert.assertTrue(true);
 			logger.info("Login Test Passed");
